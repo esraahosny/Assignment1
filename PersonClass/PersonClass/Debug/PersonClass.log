@@ -1,0 +1,21 @@
+﻿Build started 23/10/2015 11:24:22 AM.
+     1>Project "C:\Users\User\Documents\Visual Studio 2010\Projects\PersonClass\PersonClass\PersonClass.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1.cpp
+         1.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(20): error C2535: 'Person::Person(void)' : member function already defined or declared
+                 c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(10) : see declaration of 'Person::Person'
+     1>c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(25): error C2572: 'Person::Person' : redefinition of default parameter : parameter 2
+                 c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(12) : see declaration of 'Person::Person'
+     1>c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(25): error C2535: 'Person::Person(const std::string &,const char *)' : member function already defined or declared
+                 c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(12) : see declaration of 'Person::Person'
+     1>c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(25): error C2548: 'Person::Person' : missing default parameter for parameter 2
+     1>c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(29): error C2535: 'void Person::Show(void) const' : member function already defined or declared
+                 c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(15) : see declaration of 'Person::Show'
+     1>c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(41): warning C4520: 'Person' : multiple default constructors specified
+     1>c:\users\user\documents\visual studio 2010\projects\personclass\personclass\1.cpp(41): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "C:\Users\User\Documents\Visual Studio 2010\Projects\PersonClass\PersonClass\PersonClass.vcxproj" (ClCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.01

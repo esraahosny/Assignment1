@@ -1,0 +1,27 @@
+﻿Build started 21/10/2015 11:48:13 PM.
+     1>Project "c:\Users\User\documents\visual studio 2010\Projects\BankAccount\BankAccount\BankAccount.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(8): error C2470: 'Public' : looks like a function definition, but there is no parameter list; skipping apparent body
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(9): error C2059: syntax error : ';'
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(10): error C2146: syntax error : missing ')' before identifier 'name'
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(10): error C2146: syntax error : missing ';' before identifier 'name'
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(10): error C2079: 'string' uses undefined class 'BankAccount'
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(10): error C2059: syntax error : ')'
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(15): error C2470: 'Private' : looks like a function definition, but there is no parameter list; skipping apparent body
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(16): error C2061: syntax error : identifier 'DepositorName'
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(17): error C2061: syntax error : identifier 'AccountNumber'
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(17): error C2630: ';' found in what should be a comma-separated list
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(18): error C2062: type 'double' unexpected
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(18): error C2630: ';' found in what should be a comma-separated list
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(20): error C2059: syntax error : '}'
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\1.h(20): error C2630: ';' found in what should be a comma-separated list
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\main.cpp(2): error C2062: type 'void' unexpected
+     1>c:\users\user\documents\visual studio 2010\projects\bankaccount\bankaccount\main.cpp(3): error C2630: ';' found in what should be a comma-separated list
+     1>Done Building Project "c:\Users\User\documents\visual studio 2010\Projects\BankAccount\BankAccount\BankAccount.vcxproj" (ClCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.88
