@@ -1,0 +1,8 @@
+# Assignment1
+//Question 7 constructor for BankAccount class.
+#include"1.h"
+
+BankAccount::BankAccount(string name)
+{
+   DepositorName = name;
+}
